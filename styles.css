@@ -43,12 +43,18 @@ body {
 }
 
 #navbar__logo {
-    color: #fff;
+    color: #131313;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-size: 2rem;
     width: 50%;
+}
+
+@media screen and (min-width:700px) {
+    #navbar__logo {
+        color: #fff;
+    }
 }
 
 .navbar__btn {
@@ -62,7 +68,8 @@ body {
 
 .button {
     height: 65%;
-    width: 75%;
+    width: 50%;
+    min-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,8 +90,8 @@ body {
 }
 
 .control_button {
-    height: 65%;
-    width: 20%;
+    height: 50%;
+    width: 15%;
     min-width: 50px;
     justify-content: center;
     display: flex;
@@ -117,6 +124,8 @@ body {
     list-style: none;
     align-items: center;
     justify-content: center;
+    position: relative;
+    display: block;
     margin: 0 50px;
 }
 
