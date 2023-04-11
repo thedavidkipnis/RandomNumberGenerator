@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="num_gen.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <h1 id="navbar__logo">
+                <em>Random Num. Generator</em>
+            </h1>
+            <div class="navbar__btn">
+                <h1 class="control_button" id="add_button" onclick="addNum()">
+                    +
+                </h1>
+                <h1 class="control_button" id="remove_button" onclick="removeNum()">
+                    -
+                </h1>
+                <h1 class="button" id="generate_button" onclick="regenNums()">
+                    Generate
+                </h1>
+            </div>
+        </div>
+    </nav> 
+    <div id="number_container">
+        <ol id="number_list">
+            <li class="rand_num">
+                1
+            </li>
+            <li class="rand_num">
+                2
+            </li>
+            <li class="rand_num">
+                3
+            </li>
+        </ol>
+    </div>   
+</body>
+</html>
